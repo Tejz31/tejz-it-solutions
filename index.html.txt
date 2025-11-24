@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TEJZ IT SOLUTIONS</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        <img src="logo.svg" alt="TEJZ IT SOLUTIONS logo" class="logo-img" />
+      </a>
+
+      <nav class="nav" id="navbar">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#careers">Careers</a>
+        <a href="#faq">FAQ</a>
+        <a href="blog.html">Blog</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>TEJZ IT SOLUTIONS – Your Technology Growth Partner.</h1>
+        <p>
+          We help businesses design, build and scale modern digital products.
+          From web and mobile apps to cloud and DevOps, TEJZ IT SOLUTIONS is your
+          trusted IT partner.
+        </p>
+        <div class="hero-actions">
+          <button class="btn primary-btn" id="openQuoteBtn">Get a Free Quote</button>
+          <a href="#services" class="btn outline-btn">Explore Services</a>
+        </div>
+        <div class="hero-meta">
+          <span><i class="fas fa-check-circle"></i> Startup & SME Focused</span>
+          <span><i class="fas fa-check-circle"></i> End-to-End IT Services</span>
+          <span><i class="fas fa-check-circle"></i> Dedicated Support Team</span>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-card">
+          <h2>TEJZ IT SOLUTIONS</h2>
+          <p>We convert your ideas into secure, scalable and smart solutions.</p>
+          <ul>
+            <li><i class="fas fa-code"></i> Custom Web Applications</li>
+            <li><i class="fas fa-mobile-alt"></i> Android & iOS Apps</li>
+            <li><i class="fas fa-cloud"></i> Cloud & DevOps Consulting</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section" id="services">
+    <div class="container">
+      <h2 class="section-title">Our Services</h2>
+      <p class="section-subtitle">
+        We provide reliable and scalable IT services that match your business goals.
+      </p>
+
+      <div class="grid services-grid">
+        <div class="card service-card">
+          <div class="icon-wrapper">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h3>Web Application Development</h3>
+          <p>
+            Responsive, secure and performance-optimized web applications using
+            modern technologies (HTML, CSS, JavaScript, React, Node.js, etc.).
+          </p>
+        </div>
+
+        <div class="card service-card">
+          <div class="icon-wrapper">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3>Mobile App Development</h3>
+          <p>
+            Native and cross-platform apps with clean UI and smooth user experience
+            for Android and iOS platforms.
+          </p>
+        </div>
+
+        <div class="card service-card">
+          <div class="icon-wrapper">
+            <i class="fas fa-cloud"></i>
+          </div>
+          <h3>Cloud & DevOps Solutions</h3>
+          <p>
+            Cloud migration, CI/CD pipelines, monitoring and automation on AWS,
+            Azure or GCP for better scalability.
+          </p>
+        </div>
+
+        <div class="card service-card">
+          <div class="icon-wrapper">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>IT Consulting & Support</h3>
+          <p>
+            Architecture consulting, technology roadmap, security reviews and
+            ongoing maintenance support.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us Section -->
+  <section class="section section-alt" id="why-us">
+    <div class="container about-container">
+      <div class="about-text">
+        <h2 class="section-title">Why Choose TEJZ IT SOLUTIONS?</h2>
+        <p>
+          We don’t just write code – we understand your business first. Our goal is to
+          deliver solutions that reduce your manual work, improve your customer experience,
+          and help you grow faster.
+        </p>
+        <p>
+          Every project gets a dedicated team, clear timelines and regular updates so
+          you always know what’s happening.
+        </p>
+
+        <div class="stats">
+          <div class="stat">
+            <span class="stat-number">5+</span>
+            <span class="stat-label">Years of Team Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">20+</span>
+            <span class="stat-label">Projects Delivered</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">10+</span>
+            <span class="stat-label">Active Clients</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-highlights">
+        <div class="card highlight-card">
+          <h3>Our Strengths</h3>
+          <ul>
+            <li><i class="fas fa-check"></i> Clean, maintainable code</li>
+            <li><i class="fas fa-check"></i> On-time delivery</li>
+            <li><i class="fas fa-check"></i> Transparent communication</li>
+            <li><i class="fas fa-check"></i> Post-launch support</li>
+          </ul>
+        </div>
+
+        <div class="card highlight-card">
+          <h3>Technologies We Use</h3>
+          <div class="tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">React</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">Express</span>
+            <span class="tag">MongoDB</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">AWS</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section" id="testimonials">
+    <div class="container">
+      <h2 class="section-title">What Our Clients Say</h2>
+      <p class="section-subtitle">
+        A few words from teams that trusted TEJZ IT SOLUTIONS with their projects.
+      </p>
+
+      <div class="grid testimonials-grid">
+        <div class="card testimonial-card">
+          <p class="testimonial-text">
+            “TEJZ IT SOLUTIONS helped us build our internal web application on time and
+            within budget. The team was responsive, professional and quick to make changes.”
+          </p>
+          <div class="testimonial-author">
+            <div class="avatar-placeholder">A</div>
+            <div>
+              <div class="author-name">Ankit Sharma</div>
+              <div class="author-role">Founder, Local Retail Startup</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card testimonial-card">
+          <p class="testimonial-text">
+            “They handled the complete process from planning to deployment. Our new
+            website loads faster and our customers find it easier to use.”
+          </p>
+          <div class="testimonial-author">
+            <div class="avatar-placeholder">S</div>
+            <div>
+              <div class="author-name">Sunitha R</div>
+              <div class="author-role">Owner, Service Business in Vijayawada</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card testimonial-card">
+          <p class="testimonial-text">
+            “Clear communication, regular updates and a strong understanding of our
+            requirements. We look forward to working with TEJZ IT SOLUTIONS on future projects.”
+          </p>
+          <div class="testimonial-author">
+            <div class="avatar-placeholder">M</div>
+            <div>
+              <div class="author-name">Mahesh K</div>
+              <div class="author-role">Director, SME Client</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio / Projects Section -->
+  <section class="section" id="portfolio">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <p class="section-subtitle">
+        Some sample projects that show what TEJZ IT SOLUTIONS can deliver.
+      </p>
+
+      <div class="grid portfolio-grid">
+        <div class="card project-card">
+          <h3>Business CRM Web App</h3>
+          <p>
+            A CRM platform for a sales team with lead tracking, follow-up reminders,
+            dashboards and reports.
+          </p>
+          <span class="project-label">Web App</span>
+        </div>
+
+        <div class="card project-card">
+          <h3>Online Learning Platform</h3>
+          <p>
+            Web + mobile solution for video courses, quizzes, certificates and
+            student analytics.
+          </p>
+          <span class="project-label">Web & Mobile</span>
+        </div>
+
+        <div class="card project-card">
+          <h3>Cloud Infrastructure Setup</h3>
+          <p>
+            Migrated applications to cloud, implemented CI/CD, monitoring and
+            improved uptime and performance.
+          </p>
+          <span class="project-label">Cloud / DevOps</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Careers Section -->
+  <section class="section section-alt" id="careers">
+    <div class="container">
+      <h2 class="section-title">Careers at TEJZ IT SOLUTIONS</h2>
+      <p class="section-subtitle">
+        We are always looking for passionate developers, designers and problem solvers.
+      </p>
+
+      <div class="grid services-grid">
+        <div class="card service-card">
+          <h3>Frontend Developer (Fresher/Junior)</h3>
+          <p>
+            Skills: HTML, CSS, JavaScript, basic React (plus point).
+            If you love building clean UIs, we’d like to hear from you.
+          </p>
+          <p class="small-text"><strong>Location:</strong> Hybrid / Remote</p>
+        </div>
+
+        <div class="card service-card">
+          <h3>Backend Developer (Node.js)</h3>
+          <p>
+            Skills: Node.js, Express, REST APIs, MongoDB / MySQL, Git.
+            You will work on building secure and scalable APIs.
+          </p>
+          <p class="small-text"><strong>Location:</strong> On-site / Hybrid</p>
+        </div>
+
+        <div class="card service-card">
+          <h3>Intern – Full Stack</h3>
+          <p>
+            For students / freshers who want real project experience in full stack
+            development with mentorship.
+          </p>
+          <p class="small-text">
+            Send your resume to
+            <strong>tejzitsolutions@gmail.com</strong>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Coming Soon Section -->
+  <section class="section" id="coming-soon">
+    <div class="container" style="text-align:center;">
+      <h2 class="section-title">Mobile App Coming Soon</h2>
+      <p class="section-subtitle">
+        We’re building the TEJZ IT SOLUTIONS mobile app to make our services more accessible.
+        Get project updates, request support, and track progress right from your phone.
+      </p>
+
+      <div style="margin-top:1.4rem;">
+        <span class="tag" style="font-size:1rem; padding:0.6rem 1.2rem; display:inline-block;">
+          Launching Soon on Android & iOS 🚀
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section section-alt" id="faq">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <p class="section-subtitle">
+        Answers to some common questions about working with TEJZ IT SOLUTIONS.
+      </p>
+
+      <div class="grid faq-grid">
+        <div class="faq-column">
+          <details class="faq-item" open>
+            <summary>What services do you provide?</summary>
+            <p>
+              We offer web application development, mobile app development, cloud & DevOps
+              services and IT consulting/support. We can handle end-to-end delivery from
+              planning to deployment.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>How do we start a project with you?</summary>
+            <p>
+              You can contact us via the form on this page, WhatsApp or a direct call.
+              We will schedule a short call to understand your requirements and then send
+              you a proposal with timeline and cost.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Do you work with startups and small businesses?</summary>
+            <p>
+              Yes, we work with startups, small and medium-sized businesses as well as
+              growing enterprises. We can start small and scale the solution as your
+              business grows.
+            </p>
+          </details>
+        </div>
+
+        <div class="faq-column">
+          <details class="faq-item">
+            <summary>What technologies do you use?</summary>
+            <p>
+              We mainly use modern web and mobile stacks such as HTML, CSS, JavaScript,
+              React, Node.js, Express, MongoDB, MySQL and cloud platforms like AWS or Azure.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Can you maintain or upgrade our existing project?</summary>
+            <p>
+              In many cases yes. We review your current application and codebase first,
+              then suggest a plan for improvements, bug fixes or new features.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>How much does a project cost?</summary>
+            <p>
+              It depends on the scope and complexity. After understanding your
+              requirements, we provide a clear estimate. You can also use the “Get a Free
+              Quote” option to quickly share your project details.
+            </p>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="container contact-container">
+      <div class="contact-text">
+        <h2 class="section-title">Let’s Discuss Your Project</h2>
+        <p class="section-subtitle">
+          Share your requirements and our team at TEJZ IT SOLUTIONS will get back
+          to you with a proposal.
+        </p>
+
+        <div class="contact-details">
+          <p><i class="fas fa-envelope"></i> tejzitsolutions@gmail.com</p>
+          <p><i class="fas fa-phone"></i> +91-9999999999</p>
+          <p><i class="fas fa-location-dot"></i> Vijayawada, India</p>
+        </div>
+
+        <div class="map-wrapper">
+          <iframe
+            src="https://www.google.com/maps?q=Vijayawada%2C%20India&output=embed"
+            width="100%"
+            height="250"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <label for="name">Name*</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email*</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject*</label>
+          <input type="text" id="subject" name="subject" placeholder="What do you need help with?" required />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message*</label>
+          <textarea id="message" name="message" rows="4" placeholder="Briefly describe your project" required></textarea>
+        </div>
+
+        <button type="submit" class="btn primary-btn full-width">Send Message</button>
+
+        <p class="form-status" id="formStatus"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Quote Modal -->
+  <div class="modal-backdrop" id="quoteModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h3>Get a Free Quote</h3>
+        <button class="modal-close" id="closeQuoteBtn" aria-label="Close quote form">
+          &times;
+        </button>
+      </div>
+      <p class="modal-subtitle">
+        Tell us a bit about your project and our team at TEJZ IT SOLUTIONS will reach out.
+      </p>
+
+      <form class="modal-form" id="quoteForm">
+        <div class="form-group">
+          <label for="qname">Name*</label>
+          <input type="text" id="qname" name="qname" placeholder="Your name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="qemail">Email*</label>
+          <input type="email" id="qemail" name="qemail" placeholder="you@example.com" required />
+        </div>
+
+        <div class="form-group">
+          <label for="qphone">Phone (optional)</label>
+          <input type="tel" id="qphone" name="qphone" placeholder="+91-9999999999" />
+        </div>
+
+        <div class="form-group">
+          <label for="qservice">What do you need?*</label>
+          <select id="qservice" name="qservice" required>
+            <option value="">Select a service</option>
+            <option value="Web Application Development">Web Application Development</option>
+            <option value="Mobile App Development">Mobile App Development</option>
+            <option value="Cloud & DevOps">Cloud & DevOps</option>
+            <option value="IT Consulting / Other">IT Consulting / Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="qmessage">Project details*</label>
+          <textarea id="qmessage" name="qmessage" rows="3" placeholder="Briefly describe your project" required></textarea>
+        </div>
+
+        <button type="submit" class="btn primary-btn full-width">Submit Request</button>
+        <p class="form-status" id="quoteStatus"></p>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>© <span id="year"></span> TEJZ IT SOLUTIONS. All rights reserved.</p>
+      <p class="footer-links">
+        <a href="#home">Home</a>
+        <span>•</span>
+        <a href="#services">Services</a>
+        <span>•</span>
+        <a href="#careers">Careers</a>
+        <span>•</span>
+        <a href="#faq">FAQ</a>
+        <span>•</span>
+        <a href="blog.html">Blog</a>
+        <span>•</span>
+        <a href="#contact">Contact</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Call Floating Button -->
+  <a
+    href="tel:+919999999999"
+    class="call-float"
+    aria-label="Call TEJZ IT SOLUTIONS"
+  >
+    <i class="fas fa-phone"></i>
+  </a>
+
+  <!-- WhatsApp Floating Button -->
+  <a
+    href="https://wa.me/919999999999?text=Hi%20TEJZ%20IT%20SOLUTIONS%2C%20I%27d%20like%20to%20know%20more%20about%20your%20services."
+    class="whatsapp-float"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Chat on WhatsApp"
+  >
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
